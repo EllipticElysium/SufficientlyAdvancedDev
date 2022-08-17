@@ -1,0 +1,15 @@
+.wrapper {
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    .container {
+        background-color: blue;
+        width: 300px;
+        height: 300px;
+        .test {
+            background-color: $test;
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
